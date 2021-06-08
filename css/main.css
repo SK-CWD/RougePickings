@@ -1,0 +1,489 @@
+/*** Base Styles***/
+body{
+    font-family: 'montserrat', sans-serif;
+}
+
+/***Grid***/
+.full-width{
+    margin: 0 auto;
+    clear: both;
+    width: 1250px;
+}
+
+.half-width{
+    float: left;
+    width: 625px;*/
+}
+
+/***Header***/
+
+header h1 span{
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 15px;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header img{
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+    margin: 0 auto;
+}
+
+/*** About Section ***/
+#about {
+
+}
+
+#about h2{
+ color: #77a466;
+ font-size: 18px;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+#about p{
+    font-size: 16px;
+}
+
+/*** Bottom Section***/
+.section-one,
+.section-two,
+.section-three {
+	width: 345px;
+	height: auto;
+	float: left;
+	border-top: 3px solid #eee;
+    padding: 0 30px;
+}
+
+.section-one h3{
+    padding: 10px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-two{
+    border-left: 3px solid #eee;
+    border-right: 3px solid #eee;
+    padding: 0 30px;
+}
+
+.section-two h3, 
+.section-three h3{
+    padding: 10px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*** Menu Specials List ***/
+ul{
+    list-style: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+}
+
+ul li a{
+    color: #77a466;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+/***REVIEWS***/
+#reivews h3{
+    font-size: 16px;
+
+}
+
+.section-two p{
+    line-height: 25px;
+}
+
+/***CONTACT US***/
+.section-three p{
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+
+/****FOOTER****/
+footer{
+    clear: both;
+    border-top: 3px solid #eee;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h3{
+    font-size: 16px;
+}
+
+footer span{
+    font-family: 'galada', cursive;
+    text-transform: lowercase;
+    color:#77a466;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/****ENTREES MENU TAB/ NEW PAGE ****/
+.menu-header-image a{
+    text-decoration: none;
+}
+
+.menu-header-image h1 a{
+    color: #000000;
+    float: left; 
+}
+
+/**** MENU LIST ENTREE ITEMS****/
+#entrees{
+    padding-left: 0%;
+}
+
+#entrees .full-width ul{
+    padding: 0;
+    margin: 0; 
+}
+ .menu-selections ul li{
+     display: inline-block;
+     padding: 15px;
+     font-weight: bold;
+     text-decoration: underline;
+ }
+
+#entrees .title{
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 15px;
+    color:#77a466;
+}
+
+#entrees .price {
+    float: right;
+    padding-right: 30px;
+}
+
+.half-width .first-item, .second-item, .third-item{
+   border-bottom: 2px solid #eee;
+    
+}
+
+#entrees p{
+    padding-left: 20px;
+    font-size: 16px;
+    color: #787878; 
+    font-family: 'roboto', sans-serif;
+    line-height: 25px;
+    
+}
+ 
+#entrees h4{
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+
+/*** LOCATION PAGE ***/
+#location-page{
+    margin-top: 50px;
+    padding-left: 300px;
+    
+}
+.find-a-store-title{
+    padding-left: 190px;
+}
+/*** MAP SIZE 600x800 ***/
+
+#list-loc{
+    overflow-y: scroll;
+    height: 800px;
+    font-family: 'montserrat', sans-serif;
+   
+} 
+.map{
+   padding-left: 50px; 
+}
+.first-location, .second-location, .third-location, .fourth-location, .fifth-location, .sixth-location{
+    border-bottom: 3px solid #eee;
+
+}
+#list-loc, h4{
+ color:#77a466;
+}    
+#list-loc, p{
+    color: #a8a8a8;
+}
+/*** GALLERY PAGE ***/
+.col-one{
+    margin: 0 10% 0 12%;
+}
+.gallery-title{
+    text-align: center;
+    color: #77a466;
+
+}
+#photos img{
+    width: 350px;
+}
+
+/*** REVIEWS PAGE ***/
+.review-blocks{
+    margin: 0 auto;  
+    width: 1025px;
+    justify-content: space-around;
+    
+}
+.first-block{
+    clear: both;
+    display: inline-block;
+    border: 3px solid #a8a8a8;
+    padding: 0 20px;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.first-list ul {
+    float: left;
+    color: #a8a8a8;
+    padding-top: 50px;
+    color: #77a466;
+    display: inline-block;
+}
+.second-list ul{
+    color: #a8a8a8;
+    float: right;
+    padding: 50px 140px;
+    color: #77a466;
+    display: inline-block;
+}
+.first-block li{
+    margin: 2em 0;
+}
+
+.header-first-block h3{
+    float: left;
+}
+
+.second-block{
+   /* border: 3px solid #a8a8a8;*/
+    /*padding: 0 20px 0 10px;*/
+    clear: both;
+    display: inline-block;
+    border: 3px solid #a8a8a8;
+    padding: 30px 20px;
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.third-block{
+    clear: both;
+    display: inline-block;
+    border: 3px solid #a8a8a8;
+    padding: 30px 20px;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.star-image{
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    border: 5px solid #77a466;
+}
+
+.rev-details{
+    display: inline-block;
+}
+
+.star-image-container{
+    float: left;
+    padding: 0 30px;
+}
+.summary-reviews-container{
+    float: inherit;
+}
+.glow-buttons{
+    padding-top: 15px;
+}
+.ratings-section button{
+    border-radius: 25px;
+}
+.button-one{
+    background-color: white;
+    color: #77a466;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 0 5px 15px #77a466;
+    margin-right: 10px;
+}
+.button-two{
+    background-color: #77a466;
+    color: white;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 0 5px 10px #77a466;
+}
+
+.fourth-block{
+    clear: both;
+    display: inline-block;
+    border: 3px solid #a8a8a8;
+    padding: 30px 20px;
+    width: 1000px;
+    margin: 0 0 10px auto;
+}
+
+.head-shots img{
+    border-radius: 150px;
+    width: 145px;
+    height: auto;
+    border: 3px solid #77a466;
+    margin-right: 105px;
+    
+}
+.head-shots{
+    padding-left: 15%;
+}
+
+/**** CATERING PAGE ****/
+.third-width {
+    float: left;
+    width: 350px; 
+}
+
+#contact-us .full-width {
+    padding: 75px 0 0 100px;
+    text-align: center;
+}
+
+#contact-us img {
+    padding-bottom: 30px;
+}
+
+#contact-us h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#contact-us p {
+    font-family: 'lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+.third-width a{
+    color: black;
+}
+.em-p{
+    margin-top: 13%;
+}
+
+/* second section in catering. CATER YOUR NEXT EVENT */
+.second-section-cat{
+    display: inline-block;
+    margin: 50px;
+    
+}
+.second-section-cat img{
+    float: left;
+    margin-right: 30px;
+}
+.second-section-cat h2 p{
+    float: right;
+    
+}
+.par-catering p{
+    line-height: 30px;
+    letter-spacing: .5px;
+    text-align: center;
+}
+.par-catering h2{
+    text-align: center;
+    padding-top: 38px;
+}
+.par-catering button{
+    background-color: #77a466;
+    color: white;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 0 5px 10px #77a466;
+    margin-left: 18%;
+    margin-top: 2.5%;
+}
+
+.strip-bar{
+    width: 100%;
+    height: auto;
+    background-color: #77a466;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-strip-bar-button{
+    
+}
+.strip-bar h2{
+    text-align: center;
+    padding-top: 25px;
+}
+.strip-bar button{
+    background-color: white;
+    color: #77a466;
+    border-radius: 20%;
+    box-shadow: 0 3px 15px white;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+.methods .full-width {
+    padding: 75px 0 0 100px;
+    text-align: center;   
+}
+.methods h3 {
+    font-size: 18px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.methods, .third-width p {
+    font-size: 16px;
+    line-height: 30px;
+    justify-content: space-evenly;
+}
+.full-service{
+    margin-left: 20px;
+}
+.delivery{
+    margin: 0 10px 0 10px;
+}
+.pick-up{
+    margin: 0 10px 0 10px;
+}
